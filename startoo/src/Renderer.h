@@ -18,6 +18,7 @@ private:
     
 public:
     void Draw(VertexArray& vao, IndexBuffer& ibo, Shader& shader) const;
+    void Draw(VertexArray& vao, Shader& shader, unsigned int count) const;
 
     void Clear() const;
 };
